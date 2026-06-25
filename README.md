@@ -3,11 +3,13 @@
 🚀 Overview
 
 An AI-powered multi-agent healthcare assistant system designed to support clinical decision-making in resource-constrained environments using:
-
-LangGraph (agent orchestration)
-Groq LLM (Llama 3.3 70B)
-FAISS (medical knowledge retrieval)
-FastAPI (production API layer)
+⚙️ Tech Stack
+. LangGraph (multi-agent orchestration)
+. Groq API (Llama 3.3 70B)
+. FAISS (vector database)
+. FastAPI (backend)
+. PyPDF + RAG pipeline
+. Sentence Transformers (embeddings)
 
 The system simulates a clinical workflow assistant, not a chatbot.
 
@@ -22,14 +24,6 @@ Supervisor Agent (LangGraph Router)
 Reflection / Safety Agent
     ↓
 Structured Medical Response (JSON)
-
-⚙️ Tech Stack
-. LangGraph (multi-agent orchestration)
-. Groq API (Llama 3.3 70B)
-. FAISS (vector database)
-. FastAPI (backend)
-. PyPDF + RAG pipeline
-. Sentence Transformers (embeddings)
 
 🧠 Key Features
 🧠 Multi-agent decision system
