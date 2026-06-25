@@ -40,6 +40,12 @@ Structured Medical Response (JSON)
 🌍 Deployable REST API
 📊 Structured JSON medical outputs
 
+. Uses agent routing logic (LangGraph)
+. Grounds responses in medical knowledge (FAISS)
+. Includes self-evaluation loop (reflection agent)
+. Produces structured clinical outputs
+. Designed for real-world healthcare environments
+
 Input:
 "I have chest pain and difficulty breathing"
 
@@ -63,8 +69,13 @@ Output:
 
 Unlike traditional chatbots, this system:
 
-. Uses agent routing logic (LangGraph)
-. Grounds responses in medical knowledge (FAISS)
-. Includes self-evaluation loop (reflection agent)
-. Produces structured clinical outputs
-. Designed for real-world healthcare environments
+Future Enhancements
+WhatsApp integration
+Persistent patient memory
+Azure deployment
+Multi-language support
+Clinical guideline expansion
+Disclaimer
+
+This project is intended for educational and research purposes only and does not provide medical advice.
+
